@@ -1,14 +1,14 @@
-const players = ["John", "Bob", "Alice", "Poppy"];
+const players = ['Player 1', 'Player 2', 'Player 3'];
 
 const person = {
-  name: "John Doe",
-  age: 80,
+  name: 'John Doe',
+  age: 25,
 };
 
-// Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
+const team = players;
+const team1 = [...players];
+const cap1 = { ...person };
 
-window.players = players;
-window.person = person;
-window.team = team;
-window.team1 = team1;
-window.cap1 = cap1;
+console.log('team:', team);
+console.log('team1:', team1);
+console.log('cap1:', cap1);
